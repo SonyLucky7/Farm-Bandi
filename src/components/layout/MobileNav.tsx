@@ -17,7 +17,7 @@ export default function MobileNav() {
   const pathname = usePathname();
 
   return (
-    <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-200/90 h-[58px] pb-safe shadow-[0_-2px_12px_rgba(0,0,0,0.06)]">
+    <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-100 h-[56px] pb-safe shadow-[0_-4px_10px_rgba(0,0,0,0.03)]">
       <div className="grid grid-cols-5 h-full">
         {MOBILE_NAV_ITEMS.map((item) => {
           const Icon = item.icon;
@@ -36,21 +36,27 @@ export default function MobileNav() {
                   : "text-gray-500 hover:text-[#155E40]"
               )}
             >
-              <div className="relative">
+              <div className="relative flex flex-col items-center">
                 <Icon
-                  size={20}
+                  size={18}
                   className={cn(
                     "transition-transform",
                     isActive ? "text-[#155E40] scale-105" : "text-gray-500"
                   )}
+                  fill={isActive ? "currentColor" : "none"}
+                  strokeWidth={isActive ? 2 : 1.5}
                 />
                 {item.badge && (
-                  <span className="absolute -top-1 -right-4 bg-[#E76F51] text-white text-[8px] font-extrabold px-1 py-0.2 rounded-full uppercase leading-none">
+                  <span className="absolute -top-1.5 -right-3.5 bg-[#E76F51] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full uppercase leading-none border border-white">
                     {item.badge}
                   </span>
                 )}
               </div>
-              <span className="text-[10px] mt-1 leading-none tracking-tight">{item.label}</span>
+              <span className="text-[9px] mt-1 leading-none tracking-tight">{item.label}</span>
+              {/* Active Indicator Dot */}
+              {isActive && (
+                <span className="absolute bottom-0.5 w-1 h-1 rounded-full bg-[#155E40]"></span>
+              )}
             </Link>
           );
         })}

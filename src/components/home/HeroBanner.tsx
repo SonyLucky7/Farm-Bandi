@@ -128,11 +128,11 @@ export default function HeroBanner() {
   };
 
   return (
-    <section className="relative bg-[#F8F9FA] pt-2 pb-4 md:pt-3 md:pb-6">
-      <div className="container mx-auto px-4">
+    <section className="relative bg-[#F8F9FA] pt-0 pb-0 sm:pt-2 sm:pb-4 md:pt-3 md:pb-6">
+      <div className="container mx-auto px-0 sm:px-4">
         {/* Main Hero Banner Container */}
         <div
-          className="relative rounded-3xl overflow-hidden shadow-xl border border-gray-900/20 bg-gray-950 group select-none"
+          className="relative rounded-none sm:rounded-3xl overflow-hidden shadow-xl border-0 sm:border sm:border-gray-900/20 bg-gray-950 group select-none"
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
           onTouchStart={handleTouchStart}
@@ -165,12 +165,12 @@ export default function HeroBanner() {
                   <div className={`absolute inset-0 bg-gradient-to-t ${slide.gradientClass}`} />
 
                   {/* Active Slide Content */}
-                  <div className="relative z-10 flex flex-col justify-between min-h-[400px] sm:min-h-[430px] lg:min-h-[460px] px-8 sm:px-12 md:px-16 lg:px-20 py-8 sm:py-10 md:py-12">
+                  <div className="relative z-10 flex flex-col justify-between min-h-[280px] sm:min-h-[430px] lg:min-h-[460px] px-5 sm:px-12 md:px-16 lg:px-20 py-5 sm:py-10 md:py-12">
                     {/* Top Content Block */}
                     <div className="max-w-2xl lg:max-w-3xl">
                       {/* High-Impact Headline */}
                       <h1
-                        className="text-2xl sm:text-3xl md:text-4xl lg:text-[44px] font-black text-white tracking-tight leading-[1.15] mb-3 drop-shadow-xs"
+                        className="text-xl sm:text-3xl md:text-4xl lg:text-[44px] font-black text-white tracking-tight leading-[1.15] mb-2 sm:mb-3 drop-shadow-xs"
                         style={{ color: "#FFFFFF" }}
                       >
                         {slide.headline} <br className="hidden sm:inline" />
@@ -180,35 +180,35 @@ export default function HeroBanner() {
                       </h1>
 
                       {/* Subtitle Value Proposition */}
-                      <p className="text-xs sm:text-sm md:text-base text-gray-200/90 mb-5 max-w-xl leading-relaxed font-normal">
+                      <p className="text-[11px] sm:text-sm md:text-base text-gray-200/90 mb-3 sm:mb-5 max-w-xl leading-relaxed font-normal">
                         {slide.subtitle}
                       </p>
 
                       {/* Value Callout Badge */}
-                      <div className="inline-flex items-center gap-2 mb-6">
+                      <div className="inline-flex items-center gap-2 mb-4 sm:mb-6">
                         <span
-                          className={`px-3.5 py-1 rounded-full text-xs font-semibold border backdrop-blur-xs flex items-center gap-1.5 ${slide.pillColor}`}
+                          className={`px-2.5 py-0.5 sm:px-3.5 sm:py-1 rounded-full text-[10px] sm:text-xs font-semibold border backdrop-blur-xs flex items-center gap-1.5 ${slide.pillColor}`}
                         >
-                          <Tag size={13} />
+                          <Tag size={12} className="sm:w-[13px] sm:h-[13px]" />
                           <span>{slide.pillText}</span>
                         </span>
                       </div>
 
                       {/* Action Buttons */}
-                      <div className="flex flex-wrap items-center gap-3.5 mb-6">
+                      <div className="flex flex-col sm:flex-row flex-wrap items-center gap-3 sm:gap-3.5 mb-2 sm:mb-6">
                         <Link
                           href={slide.primaryCtaHref}
-                          className={`group inline-flex items-center gap-2.5 px-6 py-3 rounded-full font-extrabold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all duration-200 ${slide.primaryCtaBg}`}
+                          className={`w-full sm:w-auto group inline-flex justify-center items-center gap-2.5 px-6 py-2.5 sm:py-3 rounded-full font-extrabold text-[13px] sm:text-sm shadow-md hover:shadow-lg transition-all duration-200 ${slide.primaryCtaBg}`}
                         >
                           <span>{slide.primaryCtaText}</span>
-                          <div className="w-6 h-6 rounded-full bg-black/10 flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
+                          <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-black/10 flex items-center justify-center group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">
                             <ArrowUpRight size={14} />
                           </div>
                         </Link>
 
                         <Link
                           href={slide.secondaryCtaHref}
-                          className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold text-xs sm:text-sm border border-white/25 backdrop-blur-md transition-all duration-200"
+                          className="hidden sm:inline-flex items-center gap-2 px-5 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold text-xs sm:text-sm border border-white/25 backdrop-blur-md transition-all duration-200"
                         >
                           <span>{slide.secondaryCtaText}</span>
                         </Link>
@@ -216,7 +216,7 @@ export default function HeroBanner() {
                     </div>
 
                     {/* Bottom Trust Indicators */}
-                    <div className="pt-4 border-t border-white/15 flex flex-wrap items-center gap-4 sm:gap-7 text-xs text-gray-200">
+                    <div className="hidden sm:flex pt-4 border-t border-white/15 flex-wrap items-center gap-4 sm:gap-7 text-xs text-gray-200">
                       <div className="flex items-center gap-2">
                         <Truck size={14} className="text-amber-300 flex-shrink-0" />
                         <span className="font-medium">Free Delivery Over £50</span>
@@ -237,16 +237,16 @@ export default function HeroBanner() {
           </div>
 
           {/* Flipkart / Amazon Style Minimalist Floating Dots Indicator */}
-          <div className="absolute bottom-3.5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2">
+          <div className="absolute bottom-2 sm:bottom-3.5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2">
             {SLIDES.map((slide, index) => (
               <button
                 key={slide.id}
                 onClick={() => setCurrentSlide(index)}
                 aria-label={`Go to slide ${index + 1}`}
-                className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
+                className={`rounded-full transition-all duration-300 cursor-pointer ${
                   index === currentSlide
-                    ? "w-7 bg-white shadow-sm"
-                    : "w-2 bg-white/40 hover:bg-white/70"
+                    ? "w-6 sm:w-7 bg-white shadow-sm h-2 sm:h-1.5"
+                    : "w-2 bg-white/40 hover:bg-white/70 h-2 sm:h-1.5"
                 }`}
               />
             ))}

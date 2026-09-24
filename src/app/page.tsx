@@ -6,6 +6,7 @@ import ProductGridSection from "@/components/home/ProductGridSection";
 import ComboShowcase from "@/components/home/ComboShowcase";
 import BrandShowcase from "@/components/home/BrandShowcase";
 import TrustAndReviews from "@/components/home/TrustAndReviews";
+import Interactive3DWrapper from "@/components/home/Interactive3DWrapper";
 import { getBestsellers, getFeaturedProducts, getProducts } from "@/lib/data";
 
 export default function Home() {
@@ -59,7 +60,10 @@ export default function Home() {
       {/* 7. Partner Brands & Quality Accreditations */}
       <BrandShowcase />
 
-      {/* 8. Subscriptions, Trust Guarantees, Verified UK Reviews & Newsletter Voucher */}
+      {/* 8. Interactive 3D Farm-to-Kitchen Experience */}
+      <Interactive3DWrapper />
+
+      {/* 9. Trust Guarantees, Verified UK Reviews & Newsletter */}
       <TrustAndReviews />
     </div>
   );
