@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+    <rect width="320" height="120" rx="16" fill="#FFFFFF" stroke="#FEE2E2" stroke-width="2"/>
+    <g transform="translate(160, 56)">
+      <path d="M -110 18 L -30 -38 L 0 -18 L 30 -38 L 110 18 Z" fill="#BE123C"/>
+      <path d="M -30 -38 L 0 -18 L 30 -38 L 22 -26 L 0 -12 L -22 -26 Z" fill="#FFFFFF" opacity="0.85"/>
+      <text x="0" y="10" font-family="Arial Black, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" letter-spacing="4" text-anchor="middle">EVEREST</text>
+      <text x="0" y="40" font-family="Arial, sans-serif" font-size="10" font-weight="800" fill="#881337" letter-spacing="2" text-anchor="middle">PURE SPICES • TASTE &amp; PURITY</text>
+    </g>
+  </svg>

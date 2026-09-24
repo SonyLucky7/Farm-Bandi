@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+    <rect width="320" height="120" rx="16" fill="#FFFFFF" stroke="#FEF3C7" stroke-width="2"/>
+    <g transform="translate(56, 60)">
+      <circle cx="0" cy="0" r="36" fill="#14532D"/>
+      <path d="M 0 -22 C 16 -12 16 14 0 22 C -16 14 -16 -12 0 -22 Z" fill="#4ADE80"/>
+      <path d="M -6 0 Q 0 -12 12 -4 Q 0 4 -6 0" fill="#EA580C"/>
+    </g>
+    <text x="110" y="60" font-family="Arial Black, sans-serif" font-size="28" font-weight="900" fill="#166534" letter-spacing="2">PATANJALI</text>
+    <text x="112" y="84" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#D97706" letter-spacing="1.5">PRAKRITI KA AASHIRWAAD • GHEE</text>
+  </svg>

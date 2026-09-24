@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 76" width="120" height="76">
+    <rect width="120" height="76" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <g transform="translate(60, 38)">
+      <!-- UPI Arrows -->
+      <g transform="translate(-38, 0)">
+        <path d="M -6 -14 L 8 -14 L 0 0 L -14 0 Z" fill="#097939"/>
+        <path d="M 0 0 L 14 0 L 6 14 L -8 14 Z" fill="#ED752E"/>
+      </g>
+      <!-- UPI Text -->
+      <text x="-8" y="7" font-family="Arial Black, Impact, sans-serif" font-size="20" font-weight="900" fill="#2E3192" letter-spacing="1">UPI</text>
+      <!-- Subtitle -->
+      <text x="-8" y="19" font-family="Arial, sans-serif" font-size="6" font-weight="800" fill="#097939" letter-spacing="0.5">INSTANT PAY</text>
+    </g>
+  </svg>

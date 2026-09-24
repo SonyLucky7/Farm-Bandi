@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 76" width="120" height="76">
+    <rect width="120" height="76" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <g transform="translate(60, 38)">
+      <!-- Google G Emblem -->
+      <g transform="translate(-32, 0)">
+        <path d="M 0 -13 C 5.5 -13 9.5 -10.8 11.5 -8.8 L 8.5 -5.8 C 7 -7.2 4.5 -8.5 0 -8.5 C -6.5 -8.5 -11.5 -3.5 -11.5 2.5 C -11.5 8.5 -6.5 13.5 0 13.5 C 6 13.5 9.5 9.5 10 5.5 L 0 5.5 L 0 1.5 L 14.5 1.5 C 14.8 2.8 15 4 15 5.5 C 15 12 10.5 17.5 0 17.5 C -8.5 17.5 -15.5 10.8 -15.5 2.5 C -15.5 -5.8 -8.5 -13 0 -13 Z" fill="#4285F4"/>
+        <path d="M -11 -3 L -7.5 0 C -6.5 -2.5 -4.5 -4.5 -1.5 -5 L -1.5 -9 C -5.5 -8 -9 -5.5 -11 -3 Z" fill="#EA4335"/>
+        <path d="M -11 8 C -9 10.5 -5.5 13 -1.5 14 L -1.5 10 C -4.5 9.5 -6.5 7.5 -7.5 5 L -11 8 Z" fill="#34A853"/>
+        <path d="M -15.5 2.5 C -15.5 4.5 -14.5 6.5 -13 8 L -9.5 5 C -10.2 4.2 -10.5 3.3 -10.5 2.5 C -10.5 1.7 -10.2 0.8 -9.5 0 L -13 -3 C -14.5 -1.5 -15.5 0.5 -15.5 2.5 Z" fill="#FBBC05"/>
+      </g>
+      <!-- Pay Text -->
+      <text x="-4" y="6" font-family="'Product Sans', Arial, sans-serif" font-size="20" font-weight="700" fill="#5F6368">Pay</text>
+    </g>
+  </svg>

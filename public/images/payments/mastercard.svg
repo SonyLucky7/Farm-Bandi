@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 76" width="120" height="76">
+    <rect width="120" height="76" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <g transform="translate(60, 38)">
+      <!-- Left Red Circle -->
+      <circle cx="-16" cy="0" r="24" fill="#EB001B"/>
+      <!-- Right Yellow Circle -->
+      <circle cx="16" cy="0" r="24" fill="#F79E1B"/>
+      <!-- Overlap Intersection -->
+      <path d="M 0 -17.8 C 6.5 -13.5 10.8 -6.3 10.8 2 C 10.8 10.3 6.5 17.5 0 21.8 C -6.5 17.5 -10.8 10.3 -10.8 2 C -10.8 -6.3 -6.5 -13.5 0 -17.8 Z" fill="#FF5F00"/>
+    </g>
+  </svg>

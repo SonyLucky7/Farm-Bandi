@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+    <rect width="320" height="120" rx="16" fill="#FFFFFF" stroke="#DCFCE7" stroke-width="2"/>
+    <g transform="translate(56, 60)">
+      <circle cx="0" cy="0" r="36" fill="#166534"/>
+      <path d="M 0 -20 C 14 -18 20 -4 14 8 C 8 20 -8 20 -14 8 C -20 -4 -14 -18 0 -20 Z" fill="#86EFAC"/>
+      <path d="M -2 18 L -2 4 L 2 4 L 2 18 Z" fill="#FEF08A"/>
+    </g>
+    <text x="110" y="62" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="900" fill="#DC2626" letter-spacing="2">Dabur</text>
+    <text x="112" y="86" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#166534" letter-spacing="2">NATURAL &amp; AYURVEDIC ESSENTIALS</text>
+  </svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+    <rect width="320" height="120" rx="16" fill="#FFFFFF" stroke="#DCFCE7" stroke-width="2"/>
+    <g transform="translate(60, 60)">
+      <circle cx="0" cy="0" r="38" fill="#15803D"/>
+      <circle cx="0" cy="0" r="34" fill="none" stroke="#86EFAC" stroke-width="2"/>
+      <path d="M 0 -22 C 12 -12 14 10 0 20 C -14 10 -12 -12 0 -22 Z" fill="#FFFFFF"/>
+      <text x="0" y="6" font-family="Arial Black, sans-serif" font-size="20" font-weight="900" fill="#15803D" text-anchor="middle">24</text>
+    </g>
+    <text x="115" y="54" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#15803D" letter-spacing="1">24 MANTRA</text>
+    <text x="116" y="76" font-family="Arial, sans-serif" font-size="15" font-weight="900" fill="#854D0E" letter-spacing="4">ORGANIC</text>
+    <text x="116" y="94" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#166534" letter-spacing="1">100% PURE FARM CERTIFIED</text>
+  </svg>
